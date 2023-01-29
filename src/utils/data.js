@@ -1,65 +1,56 @@
-import I1 from "../img/i1.png";
-import F1 from "../img/f1.png";
-import C3 from "../img/c3.png";
-import Fi1 from "../img/fi1.png";
+import biryani from "../img/Biriyani.png";
+import bread from "../img/Bread Omlette.png";
+import dosa from "../img/Dosa.png";
+import frankie from "../img/frankie.png";
 
 export const heroData = [
   {
     id: 1,
-    name: "Icecream",
-    decp: "Chocolate & vanilla",
-    price: "5.25",
-    imageSrc: I1,
+    name: "Biryani",
+    decp: "Chicken Dum biryani",
+    price: "200",
+    imageSrc: biryani,
   },
   {
     id: 2,
-    name: "Strawberries",
-    decp: "Fresh Strawberries",
-    price: "10.25",
-    imageSrc: F1,
+    name: "Bread Omlette",
+    decp: "Fresh eggs",
+    price: "35",
+    imageSrc: bread,
   },
   {
     id: 3,
-    name: "Chicken Kebab",
-    decp: "Mixed Kebab Plate",
-    price: "8.25",
-    imageSrc: C3,
+    name: "70mm Dosa",
+    decp: "Fresh Chutney",
+    price: "40",
+    imageSrc: dosa,
   },
   {
     id: 4,
-    name: "Fish Kebab",
-    decp: "Mixed Fish Kebab",
-    price: "5.25",
-    imageSrc: Fi1,
+    name: "Frankie",
+    decp: "Extra Cheese",
+    price: "70-80",
+    imageSrc: frankie,
   },
 ];
 
 export const categories = [
   {
     id: 1,
-    name: "Chicken",
-    urlParamName: "chicken",
+    name: "Non-Veg",
+    urlParamName: "Non-Veg",
   },
   {
     id: 2,
-    name: "Curry",
-    urlParamName: "curry",
+    name: "Veg",
+    urlParamName: "Veg",
   },
   {
     id: 3,
-    name: "Rice",
-    urlParamName: "rice",
+    name: "Tiffins",
+    urlParamName: "Tiffins",
   },
-  {
-    id: 4,
-    name: "Fish",
-    urlParamName: "fish",
-  },
-  {
-    id: 5,
-    name: "Fruits",
-    urlParamName: "fruits",
-  },
+   
   {
     id: 6,
     name: "Icecreams",
